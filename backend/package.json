@@ -1,7 +1,7 @@
 {
-  "name": "how-to-breakup-backend",
+  "name": "healwell-backend",
   "version": "1.0.0",
-  "description": "Backend API for How to Break Up Telegram Mini App",
+  "description": "Backend API for HealWell Telegram Mini App",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

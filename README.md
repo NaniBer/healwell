@@ -1,11 +1,11 @@
-# How to Break Up
+# HealWell
 
 A Telegram Mini App to help people navigate breakups with AI-powered personalized recovery plans.
 
 ## Project Structure
 
 ```
-how-to-breakup/
+healwell/
 ├── frontend/          # React + Telegram WebApp API
 │   ├── src/
 │   ├── public/

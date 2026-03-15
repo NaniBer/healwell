@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-  res.json({ message: 'How to Break Up API' });
+  res.json({ message: 'HealWell API' });
 });
 
 app.get('/api/health', (req, res) => {
