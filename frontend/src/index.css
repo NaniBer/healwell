@@ -2,11 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+@layer base {
+  body {
+    /* Apple System Font Stack per Human Interface Guidelines */
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "San Francisco",
+                  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #f0ebe5;
+  }
+
+  /* Reset and base styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }
 
-body {
-  margin: 0;
-  min-height: 100vh;
+html, body {
+  height: 100%;
+}
+
+/* Custom animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
